@@ -1,0 +1,59 @@
+:root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --very-dark-blue: hsl(224, 21%, 14%);
+  }
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.2rem;
+    margin-top: .35rem;
+  }
+  .text-left{
+    display: flex;
+    gap: 1.2rem;
+     align-items: center;  
+  }
+  .header-title{
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: var(--very-dark-blue);
+    letter-spacing: .03rem;
+  }
+  .count-notifications{
+    width: 32px;
+    height: 25px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .54rem;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 600;
+    padding-bottom: 1px;
+    font-size: 1.56rem;
+  }
+  .reset-btn{
+    background-color: inherit;
+    color: var(--dark-grayish-blue);
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: none;
+
+    
+  }
+
+  /* HOVER STATES */
+  .reset-btn:hover{
+    color: var(--blue);
+    font-weight: 500;
+  }
