@@ -24,7 +24,6 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   width: 100%;
-  background-color: #F8FAFE;
 
 
 
@@ -38,7 +37,7 @@ p {
 }
 .outer-container {
   display: flex;
-  min-height: 921px;
+  min-height: 991px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -56,7 +55,7 @@ p {
 .inner-container {
   width: 100%;
   max-width: 1440px;
-  min-height: 921px;
+  min-height: 991px;
   position: relative;
   display: flex;
   flex-direction: column;
